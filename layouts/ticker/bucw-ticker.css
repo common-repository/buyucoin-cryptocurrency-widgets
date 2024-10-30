@@ -1,0 +1,140 @@
+.bucw-ticker-box {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+}
+
+.bucw-ticker-box .ph-item.preloader-placeholder {
+    position: absolute;
+    z-index: 9;
+    top: 0;
+    left: 0;
+}
+
+ul.bucw-ticker {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    list-style-type: none;
+    float: left;
+    /*width: 150%;*/
+    display:flex;
+}
+.bucw-ticker-wrp {
+font-size:13px;
+}
+.bucw-ticker li {
+    height: 100%;
+    width: auto;
+    margin: 0;
+    padding: 1px 20px;
+    list-style: none;
+    position: relative;
+    white-space: nowrap;
+    float: left;
+    flex: 0 0 auto;
+}
+.bucw-ticker .bucw-coin-name-data{
+display: flex;
+}
+.bucw-ticker span.bucw-coin-name {
+    font-weight:600;
+    font-size:1.25em;
+}
+.bucw-ticker .bucw_quatcls{
+    font-size: 1em;
+    font-weight:500;
+}
+.bucw-ticker .bucw-coin-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: auto;
+}
+.bucw-container {
+
+    padding: 2px 0px;
+}
+.bucw-coin-container .bucw-left,
+.bucw-coin-container .bucw-right  {
+    flex: 1 0 auto;
+}
+
+.bucw-coin-name-data,
+.bucw-coin-price-data {
+    width: 100%;
+    display: block;
+    line-height: 1.25em;
+    white-space: nowrap;
+    text-align: left;
+}
+
+.bucw-coin-symbol,
+.bucw-coin-price,
+.bucw-coin-changes {
+    display:inline-block;
+}
+.bucw-coin-changes,
+.bucw-coin-symbol {
+    font-size: 0.8em;
+    font-weight: bold;
+}
+.bucw-left img {
+    width: 65px;
+}
+.bucw-footer-ticker-fixedbar {
+    bottom: 0!important;
+    top: inherit!important;
+}
+.bucw-container.bucw-footer-ticker-fixedbar {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    font-family: inherit;
+}
+.bucw-container.bucw-header-ticker-fixedbar{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 99999;
+    cursor: pointer;
+}
+.ph-item.preloader-placeholder.bucw-footer-ticker-fixedbar{
+    position: fixed;
+    width: 100%;
+    /* background: #fff; */
+    z-index: 100000;
+    font-family: inherit;
+}
+.ph-item.preloader-placeholder.bucw-header-ticker-fixedbar{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 100000;
+    cursor: pointer;
+}
+
+.bucw-ticker span.bucw-coin-changes.up,
+.bucw-ticker span.bucw-coin-changes.down
+
+ {
+    padding-right: 10px;
+}
+.bucw-ticker span.bucw-coin-name {
+    padding-right: 3px;
+}
+
+.bucw-left img {
+    height: 100%;   
+    width: 100%;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.bucw-left {
+    width: 55px;
+    height:100%;
+
+}

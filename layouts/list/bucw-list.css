@@ -1,0 +1,68 @@
+.coins-table table {
+    margin: 0 auto;
+    background: #f9f9f9;
+    border: 1px solid #c9c8c8;
+    border-spacing: 0px;
+}
+.bucw-main-wrapper[data-type="list"] {
+overflow:auto;
+
+}
+table.bucw_table {
+    font-size: 13px;
+}
+.coins-table .bucw_coin_info span.name {
+    display: flex;
+}
+
+.coins-table span.bucw_coin_logo img {
+    padding-right: 5px;
+}
+.coins-table span.bucw-mkt-name{
+    font-size:1em;
+    font-weight:500;
+}
+
+
+.coins-table span.name {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.coins-table .price-value,  
+ .coins-table .changes.up,
+ .coins-table .high,
+ .coins-table .volume,
+ .coins-table .low
+ {
+ 
+    font-size:1em;
+    font-weight:500;
+}
+
+.coins-table table td,.coins-table table th {
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #c9c8c8;
+}
+.bucw-main-wrapper[data-type="list"]{
+    display: none;
+}
+.coins-table table th:first-child,.coins-table table td:first-child {
+    text-align: left;
+}
+.coins-table .bucw_coin_info .bucw_coin_logo img{
+ 
+    height: 30px;
+}
+@media (max-width:500px){
+    .bucw-main-wrapper.coins-table{
+        overflow-x: scroll;
+    }
+}
+
+.bucw_no_data {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}

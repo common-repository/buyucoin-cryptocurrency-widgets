@@ -1,0 +1,281 @@
+﻿/*Custom Font Awesome*/
+
+@font-face {
+    font-family: 'bucwicons';
+    src: url('../font/bucwicons.eot?89136625');
+    src: url('../font/bucwicons.eot?89136625#iefix') format('embedded-opentype'), url('../font/bucwicons.woff2?89136625') format('woff2'), url('../font/bucwicons.woff?89136625') format('woff'), url('../font/bucwicons.ttf?89136625') format('truetype'), url('../font/bucwicons.svg?89136625#ccpwicons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+
+
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+
+
+/*
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+      font-family: 'ccpwicons';
+      src: url('../font/ccpwicons.svg?89136625#ccpwicons') format('svg');
+    }
+  }
+  */
+
+[class^="bucw_icon-"]:before,
+[class*=" bucw_icon-"]:before {
+    font-family: "bucwicons";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    /* opacity: .8; */
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+    /* fix buttons height, for twitter bootstrap */
+    line-height: 1em;
+    /* Animation center compensation - margins should be symmetric */
+    /* remove if not needed */
+    margin-left: .2em;
+    /* you can be more comfortable with increased icons size */
+    /* font-size: 120%; */
+    /* Font smoothing. That was taken from TWBS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* Uncomment for 3D effect */
+    /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.bucw_icon-up:before {
+    content: '\21';
+}
+
+
+/* '!' */
+
+.bucw_icon-down:before {
+    content: '\22';
+}
+
+
+/* '&quot;' */
+
+.bucw_icon-price-up:before {
+    content: '\e800';
+}
+
+
+/* '' */
+
+.bucw_icon-price-down:before {
+    content: '\e801';
+}
+
+
+/* '' */
+
+.bucw_icon-exchange:before {
+    content: '\e802';
+}
+
+
+/* '' */
+
+.bucw_icon-website:before {
+    content: '\e803';
+}
+
+
+/* '' */
+
+.bucw_icon-country:before {
+    content: '\e804';
+}
+
+
+/* '' */
+
+.bucw_icon-edit:before {
+    content: '\e805';
+}
+
+
+/* '' */
+
+.bucw_icon-setting:before {
+    content: '\e806';
+}
+
+
+/* '' */
+
+.bucw_icon-flight:before {
+    content: '\e807';
+}
+
+
+/* '' */
+
+.bucw_icon-top:before {
+    content: '\e809';
+}
+
+
+/* '' */
+
+.bucw_icon-gplus:before {
+    content: '\f0d4';
+}
+
+
+/* '' */
+
+.bucw_icon-money:before {
+    content: '\f0d6';
+}
+
+
+/* '' */
+
+.bucw_icon-chat:before {
+    content: '\f0e6';
+}
+
+
+/* '' */
+
+.bucw_icon-alexa:before {
+    content: '\f135';
+}
+
+
+/* '' */
+
+.bucw_icon-link:before {
+    content: '\f14c';
+}
+
+
+/* '' */
+
+.bucw_icon-euro:before {
+    content: '\f153';
+}
+
+
+/* '' */
+
+.bucw_icon-pound:before {
+    content: '\f154';
+}
+
+
+/* '' */
+
+.bucw_icon-dollar:before {
+    content: '\f155';
+}
+
+
+/* '' */
+
+.bucw_icon-rupee:before {
+    content: '\f156';
+}
+
+
+/* '' */
+
+.bucw_icon-bitcoin:before {
+    content: '\f15a';
+}
+
+
+/* '' */
+
+.bucw_icon-youtube:before {
+    content: '\f166';
+}
+
+
+/* '' */
+
+.bucw_icon-coins:before {
+    content: '\f192';
+}
+
+
+/* '' */
+
+.bucw_icon-volume:before {
+    content: '\f200';
+}
+
+
+/* '' */
+
+.bucw_icon-chart:before {
+    content: '\f201';
+}
+
+
+/* '' */
+
+.bucw_icon-buy-coin:before {
+    content: '\f217';
+}
+
+
+/* '' */
+
+.bucw_icon-sell-coin:before {
+    content: '\f218';
+}
+
+
+/* '' */
+
+.bucw_icon-telegram:before {
+    content: '\f2c6';
+}
+
+
+/* '' */
+
+.bucw_icon-github:before {
+    content: '\f300';
+}
+
+
+/* '' */
+
+.bucw_icon-twitter:before {
+    content: '\f304';
+}
+
+
+/* '' */
+
+.bucw_icon-facebook:before {
+    content: '\f308';
+}
+
+
+/* '' */
+
+.bucw_icon-linkedin:before {
+    content: '\f30c';
+}
+
+
+/* '' */
+
+
+/*Custom Font Awesome*/
